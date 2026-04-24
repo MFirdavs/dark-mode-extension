@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Dark Mode",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Applies a dark theme to every website using a CSS filter. Toggle globally or exclude individual sites.",
+        "description": "Description of what the extension does."
+    }
+}

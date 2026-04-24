@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <script type="module" src="popup.js"></script>
+</head>
+<body>
+    <h1>Dark Mode</h1>
+
+    <label class="row">
+        <span>Dark mode</span>
+        <input type="checkbox" id="enabled">
+    </label>
+
+    <label class="row">
+        <span>Disable for <strong id="host">this site</strong></span>
+        <input type="checkbox" id="excluded">
+    </label>
+
+    <hr>
+
+    <label class="row">
+        <span>Background</span>
+        <input type="color" id="bg" value="#181a1b">
+    </label>
+
+    <label class="row">
+        <span>Text</span>
+        <input type="color" id="fg" value="#e8e6e3">
+    </label>
+
+    <label class="row">
+        <span>Brightness <em id="brightnessVal">100</em></span>
+        <input type="range" id="brightness" min="50" max="150" value="100">
+    </label>
+
+    <label class="row">
+        <span>Contrast <em id="contrastVal">90</em></span>
+        <input type="range" id="contrast" min="50" max="150" value="90">
+    </label>
+
+    <label class="row">
+        <span>Sepia <em id="sepiaVal">10</em></span>
+        <input type="range" id="sepia" min="0" max="100" value="10">
+    </label>
+
+    <button id="reset" type="button">Reset colors</button>
+</body>
+</html>
